@@ -6,5 +6,6 @@
   &:hover {
     text-decoration: underline;
     color: var(--brand-color);
+    cursor: pointer;
   }
 }
