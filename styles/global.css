@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* COLOR - PRODUCT VARIABLES */
+  --brand-color: #EF5F4C;
+
+  /* COLOR - SHAPE VARIABLES */
+  --background-color: #FFFFFF;
+  --surface-color: #F5F5F5;
+  --skeleton-color: #D9D9D9;
+  --shape-transparency: rgb(255, 255, 255, 56%);
+
+  /* COLOR - TEXT VARIABLES */
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+
+  /* TIPOGRAPHY VARIABLES */
+  --heading1: bold 2rem/1.25 "Poppins"; 
+  --paragraph-md: normal .875rem/1.70 "Poppins";
+  --paragraph-sm: normal .75rem/1.70 "Poppins";
+
+}
