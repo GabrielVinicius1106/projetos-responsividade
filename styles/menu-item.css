@@ -1,0 +1,10 @@
+.menu-item {
+  text-decoration: none;
+  font: var(--paragraph-md);
+  color: var(--text-color-secondary);
+
+  &:hover {
+    text-decoration: underline;
+    color: var(--brand-color);
+  }
+}
