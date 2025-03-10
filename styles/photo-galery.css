@@ -1,0 +1,20 @@
+#photo-galery {
+  padding-block: 1rem; /* Valor altera para desktop */
+  background-color: var(--background-color);
+
+  & img {
+    width: 20.5rem; /* Valor altera para desktop */
+  }
+
+  @media (width >= 80em) {
+    grid-template-columns: repeat(4, 1fr);
+    
+    & {
+      padding-block: 1.5rem;
+    }
+
+    & img {
+      width: 17.785rem;
+    }
+  }
+}

@@ -3,6 +3,10 @@
   flex-direction: column;
   gap: 2rem;
 
+  background-color: var(--surface-color);
+
+  padding-block: 2rem;
+
    & .main {
     display: flex;
     flex-direction: column; /* Orientação do flex altera para desktop */

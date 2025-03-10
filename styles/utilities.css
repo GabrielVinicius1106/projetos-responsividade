@@ -14,6 +14,14 @@
   gap: 0.5rem;
 }
 
+.gap-1\.5 {
+  gap: 1.5rem;
+}
+
+.grid {
+  display: grid;
+}
+
 .padding-inline {
   padding-inline: 1rem;
 
