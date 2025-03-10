@@ -1,0 +1,7 @@
+.desktop-only {
+  display: none;
+
+  @media (width >= 80em) {
+    display: initial;
+  }
+}
