@@ -1,0 +1,30 @@
+footer {
+  display: flex; 
+  flex-direction: column; /* Se altera para desktop*/
+  text-align: center;
+  padding-block: 1rem; /* Se altera para desktop */
+  
+  & p {
+    font: var(--paragraph-md);
+    font-size: 14px;
+    color: var(--text-color-secondary);
+  }
+  & .links {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  @media (width >= 80em) {
+    flex-direction: row;
+    padding-block: 1.5rem;
+
+    & p {
+      margin-right: auto;
+    }
+
+    & .links {
+      gap: 1rem;
+    }
+  }
+}
+

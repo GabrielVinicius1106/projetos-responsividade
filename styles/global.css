@@ -24,3 +24,7 @@
   --paragraph-sm: normal .75rem/1.70 "Poppins";
 
 }
+
+html {
+  scroll-behavior: smooth;
+}
