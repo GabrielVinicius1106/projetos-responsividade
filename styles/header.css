@@ -10,7 +10,7 @@ header {
     height: 2.5rem;
   }
 
-  & div > span {
+  & div #magnifying-glass {
     width: 1.5rem;
     height: 1.5rem;
     background: url(../assets/icons/MagnifyingGlass.svg) no-repeat;
