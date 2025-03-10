@@ -10,6 +10,10 @@
   gap: 1rem;
 }
 
+.gap-0\.5 {
+  gap: 0.5rem;
+}
+
 .padding-inline {
   padding-inline: 1rem;
 
